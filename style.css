@@ -1,0 +1,15 @@
+img[alt="My Photo for resume"]{
+    position: absolute;
+    right: 1.5%;
+    top: 1.5%;
+}
+/* a[href="https://www.linkedin.com/in/bhuvan-paniya-076539249/"]{
+    color: blue;
+} */
+a[class="link"]{
+    color: blue;
+}
+html{
+    background: radial-gradient(circle, #C9DABF, #FEFBD8
+    );
+}
