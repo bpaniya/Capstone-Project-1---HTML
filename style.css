@@ -1,18 +1,89 @@
+ body{
+    font-family: "Poppins", sans-serif;
+    margin: 0%;
+    padding: 0%;
+} 
+
+h1{
+    display: flex;
+    color: black;
+    margin-right: 900px;
+    font-size: 50px;
+    text-wrap: wrap;
+    flex-direction: column;
+    font-family: Poppins;
+    font-weight: lighter;
+    margin-top: 1%;
+    margin-left: 0%;
+}
+.paniya{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 75px;
+    margin-left: 0px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-side {
+    width: 40%; /* Adjust as needed */
+}
+.right-side{
+    width: 90%;
+}
+
+h2{
+    display: flex;
+    width: 200px;
+    color: #fdfcfc;
+    background-color: #34363b;
+    border-radius: 0px 20px 20px 0px;
+}
+
+ul.list > li{
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
 img[alt="My Photo for resume"]{
-    position: absolute;
-    right: 1.5%;
-    top: 1.5%;
+    display: flex;
+    align-items: flex-start;
+    border: 5px solid #817a77;
+    margin-left: 0px;
+    margin-top: 40px;
 }
-/* a[href="https://www.linkedin.com/in/bhuvan-paniya-076539249/"]{
-    color: blue;
-} */
 a[class="link"]{
-    color: blue;
+    color: darkgreen;
+    font-weight: bold;
 }
-html{
+/* html{
     background: radial-gradient(circle, #C9DABF, #FEFBD8
     );
-}
+background-color: whitesmoke;}
 footer{
     text-align: center;
+} */
+
+ .details{
+    text-align: center;
+} 
+
+@media (max-width: 1200px) {.right-side{
+    width: 30%;
+    margin: 0%;
+    padding: 0%;
+}
+.left-side{
+    width: 0%;
+    margin: 0%;
+    padding: 10%;
+}
+.about-me-text{
+    width: 200px;
+    height: 150px;
+    overflow: auto;
+}
 }
