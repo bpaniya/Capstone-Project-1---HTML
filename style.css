@@ -52,7 +52,7 @@ ul.list > li{
 img[alt="My Photo for resume"]{
     display: flex;
     align-items: flex-start;
-    border: 5px solid #817a77;
+    border: 5px solid #34363b;
     margin-left: 0px;
     margin-top: 40px;
 }
@@ -117,7 +117,7 @@ footer{
     height: 130px;
 }
  body{
-    width: 450px;
+    width: auto;
  }
  .Heading{
     display: flex;
