@@ -41,6 +41,7 @@ h2{
     color: #fdfcfc;
     background-color: #34363b;
     border-radius: 0px 20px 20px 0px;
+    padding: 1%;
 }
 
 ul.list > li{
@@ -59,31 +60,68 @@ a[class="link"]{
     color: darkgreen;
     font-weight: bold;
 }
-/* html{
-    background: radial-gradient(circle, #C9DABF, #FEFBD8
-    );
-background-color: whitesmoke;}
-footer{
-    text-align: center;
-} */
+.Heading{
+    display: flex;
+    width: auto;
+    color: #fdfcfc;
+    background-color: #34363b;
+    border-radius: 20px 0px 0px 20px;
+    padding: 1%;
+}
 
  .details{
     text-align: center;
-} 
+}
+footer{
+    text-align: center;
+}
 
 @media (max-width: 1200px) {.right-side{
-    width: 30%;
-    margin: 0%;
+    width: 180px;
+    margin-top: 5%;
     padding: 0%;
 }
 .left-side{
-    width: 0%;
     margin: 0%;
-    padding: 10%;
+    padding: 0%;
 }
 .about-me-text{
+    width: 450px;
+    height: 180px;
+    margin-top: 5%;
+}
+.contact{
     width: 200px;
-    height: 150px;
-    overflow: auto;
+    height: 180px;
 }
+.skills{
+    width: 230px;
+    height: 180px;
 }
+.education{
+    width: 450px;
+    height: 40px;
+    margin-bottom: 0%;
+    padding: 0%; 
+}
+.Experience{
+    width: 450px;
+    height: 1080px;
+}
+.projects{
+    width: 450px;
+    height: 120px;
+}
+.certifications{
+    width: 450px;
+    height: 130px;
+}
+ body{
+    width: 450px;
+ }
+ .Heading{
+    display: flex;
+    width: 450px;
+ }
+}
+
