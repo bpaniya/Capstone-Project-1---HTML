@@ -1,89 +1,20 @@
- body{
-    font-family: "Poppins", sans-serif;
-    margin: 0%;
-    padding: 0%;
-} 
-
-h1{
-    display: flex;
-    color: black;
-    margin-right: 900px;
-    font-size: 50px;
-    text-wrap: wrap;
-    flex-direction: column;
-    font-family: Poppins;
-    font-weight: lighter;
-    margin-top: 1%;
-    margin-left: 0%;
-}
-.paniya{
-    font-family: Poppins;
-    font-weight: bold;
-    font-size: 75px;
-    margin-left: 0px;
-}
-.container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.left-side {
-    width: 40%; /* Adjust as needed */
-}
-.right-side{
-    width: 90%;
-}
-
-h2{
-    display: flex;
-    width: 200px;
-    color: #fdfcfc;
-    background-color: #34363b;
-    border-radius: 0px 20px 20px 0px;
-    padding: 1%;
-}
-
-ul.list > li{
-    padding: 2px;
-    margin-bottom: 10px;
-}
-
-img[alt="My Photo for resume"]{
-    display: flex;
-    align-items: flex-start;
-    border: 5px solid #34363b;
-    margin-left: 0px;
-    margin-top: 40px;
-}
-a[class="link"]{
-    color: darkgreen;
-    font-weight: bold;
-}
-.Heading{
-    display: flex;
-    width: auto;
-    color: #fdfcfc;
-    background-color: #34363b;
-    border-radius: 20px 0px 0px 20px;
-    padding: 1%;
-}
-
- .details{
-    text-align: center;
-}
-footer{
-    text-align: center;
-}
-
 @media (max-width: 1200px) {.right-side{
-    width: 180px;
-    margin-top: 5%;
+    width: auto;
+    margin-top: auto;
     padding: 0%;
 }
-.left-side{
-    margin: 0%;
-    padding: 0%;
+.container{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(8, auto);
+    gap: 50px;
+}
+/* .left-side{
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-columns: auto;
+    grid-auto-rows: 50px;
+    gap: 20px;
 }
 .about-me-text{
     width: 450px;
@@ -123,11 +54,12 @@ footer{
     display: flex;
     width: 450px;
  }
-h1{
+ h1{
     font-weight: normal;
- }
-.paniya{
-    font-size: 65px;
- }
-}
+    font-size: 45px;
 
+ }
+ .paniya{
+    font-size: 65px;
+ } */
+}
