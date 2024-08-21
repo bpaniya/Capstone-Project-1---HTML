@@ -9,7 +9,7 @@
     grid-template-columns: repeat(8, auto);
     gap: 50px;
 }
-/* .left-side{
+.left-side{
     display: grid;
     grid-template-rows: 1fr 1fr 2fr;
     grid-template-columns: auto;
@@ -61,5 +61,5 @@
  }
  .paniya{
     font-size: 65px;
- } */
+ }
 }
