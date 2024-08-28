@@ -82,6 +82,7 @@ footer{
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
+        width: 90%;
     }   
     .Heading{
         display: flex;
@@ -91,8 +92,14 @@ footer{
         border-radius: 0px 20px 20px 0px;
         padding: 1%;
     }
-  
-    
+    ul.list {
+        display: grid; /* Use grid layout */
+        grid-template-columns: repeat(2, 1fr); /* 2 columns, each taking up 1 fraction of the available space */
+        gap: 20px; /* Space between items */
+        padding: 0; /* Remove default padding */
+        margin: 0; /* Remove default margin */
+      }
+     
     h1 {
         font-size: 50px;
     }
@@ -100,6 +107,7 @@ footer{
     h2 {
         font-size: 20px;
     }
+    
 }
 
 @media (max-width: 480px) {
@@ -111,6 +119,13 @@ footer{
     .details h1{
         font-size: 50px;
     }
+    ul.list {
+        display: grid; /* Use grid layout */
+        grid-template-columns: repeat(2, 1fr); /* 2 columns, each taking up 1 fraction of the available space */
+        gap: 20px; /* Space between items */
+        padding: 0; /* Remove default padding */
+        margin: 0; /* Remove default margin */
+      }
 
     h1 {
         font-size: 30px;
