@@ -83,17 +83,16 @@ footer{
     .container {
         flex-direction: column;
     }   
-
-    .left-side {
-        border-right: none;
-        border-bottom: 4px solid #007bff;
+    .Heading{
+        display: flex;
+        width: 200px;
+        color: #fdfcfc;
+        background-color: #34363b;
+        border-radius: 0px 20px 20px 0px;
+        padding: 1%;
     }
-
-    .left-side, .right-side {
-        padding: 15px;
-
-    }
-
+  
+    
     h1 {
         font-size: 50px;
     }
