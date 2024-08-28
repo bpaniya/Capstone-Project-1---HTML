@@ -80,8 +80,6 @@ footer{
 @media (max-width: 600px) { body{
     font-family: "Poppins", sans-serif;
     margin: 0;
-    padding: 10px;
-    font-size: 14px;
     display: flex;
     justify-content: space-between;
 } 
