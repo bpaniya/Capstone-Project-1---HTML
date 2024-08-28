@@ -30,8 +30,7 @@ h1{
 }
 
 .left-side {
-    width: 40%; /* Adjust as needed */
-}
+    width: 40%;}
 .right-side{
     width: 90%;
 }
@@ -77,71 +76,42 @@ footer{
     text-align: center;
 }
 
-@media (max-width: 600px) { body{
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-} 
-}
-/* .container{
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: repeat(8, auto);
-    gap: 50px;
-} */
-/* .left-side{
-    display: grid;
-    grid-template-rows: 1fr 1fr 2fr;
-    grid-template-columns: auto;
-    grid-auto-rows: 50px;
-    gap: 20px;
-}
-.about-me-text{
-    width: 450px;
-    height: 180px;
-    margin-top: 5%;
-}
-.contact{
-    width: 200px;
-    height: 180px;
-}
-.skills{
-    width: 230px;
-    height: 180px;
-}
-.education{
-    width: 450px;
-    height: 40px;
-    margin-bottom: 0%;
-    padding: 0%; 
-}
-.Experience{
-    width: 450px;
-    height: 1080px;
-}
-.projects{
-    width: 450px;
-    height: 120px;
-}
-.certifications{
-    width: 450px;
-    height: 130px;
-}
- body{
-    width: auto;
- }
- .Heading{
-    display: flex;
-    width: 450px;
- }
- h1{
-    font-weight: normal;
-    font-size: 45px;
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
 
- }
- .paniya{
-    font-size: 65px;
- } */
+    .left-side {
+        border-right: none;
+        border-bottom: 4px solid #007bff;
+    }
+
+    .left-side, .right-side {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .details img {
+        width: 80px;
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
 
 
