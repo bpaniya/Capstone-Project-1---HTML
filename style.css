@@ -96,8 +96,7 @@ footer{
         display: grid; /* Use grid layout */
         grid-template-columns: repeat(2, 1fr); /* 2 columns, each taking up 1 fraction of the available space */
         gap: 20px; /* Space between items */
-        padding: 0; /* Remove default padding */
-        margin: 0; /* Remove default margin */
+        list-style: none;
       }
      
     h1 {
