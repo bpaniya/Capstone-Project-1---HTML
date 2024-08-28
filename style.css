@@ -84,15 +84,6 @@ footer{
         flex-direction: column;
     }   
 
-    .details img {
-        width: 80px;
-        height: 80px;
-        margin-left: 3%;
-    }
-    .details h1{
-        font-size: 50px;
-    }
-
     .left-side {
         border-right: none;
         border-bottom: 4px solid #007bff;
